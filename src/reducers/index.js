@@ -1,11 +1,17 @@
+const initState = {};
 
+const repoReducer = (state = initState, action) => {
+  switch (action.type) {
+    case "LOAD_REPOS":
+      return { ...state, payload: action.payload };
 
-const initState = { all: [{ name: "", }]};
+    case "SET_ERROR":
+      return { ...state, payload: action.payload };
 
-const repoReducer = (state=initState, action) => {
-    switch(action.type) {
-        case 'LOAD_REPOS':
-            return ({...state, repos })
+    default: {
+      state;
     }
+  }
+};
 
-}
+export default repoReducer;

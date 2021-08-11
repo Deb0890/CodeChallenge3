@@ -3,8 +3,9 @@ import "./style.css";
 
 const Repo = ({ props }) => {
   return (
-    <article>
+    <article id="repoDetails">
       <h2>{props.repoName}</h2>
+      <div className="divider"></div>
       <h3>
         Stars: <span className="dataPoint">{props.stars}</span>
       </h3>

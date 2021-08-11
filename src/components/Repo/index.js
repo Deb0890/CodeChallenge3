@@ -7,6 +7,7 @@ const Repo = (repoName, repoId) => {
     console.log(e.target.closest("section").key);
     console.log(e);
     console.log("clicked");
+    window.location.pathname = "/repo-details/1";
   };
 
   return (
