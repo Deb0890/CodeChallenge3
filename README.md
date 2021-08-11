@@ -1,5 +1,7 @@
 # Git Tracker
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dc73ea8b-85a8-42e0-b8ad-3cef1c78faef/deploy-status)](https://app.netlify.com/sites/git-tracker/deploys)
+
 Created by [Deborah Francis](https://github.com/Deb0890) & [Daniel Cooper](https://github.com/danjcooper)
 
 Our site is live and can be [viewed here](https://git-tracker.netlify.app/)
