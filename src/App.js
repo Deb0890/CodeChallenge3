@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Repo, Header } from "./components";
 import { Homepage, Profile, RepoDetails } from "./Pages";
@@ -25,13 +24,12 @@ function App() {
         <Route exact path="/profile">
           <Profile userName="danjcooper" />
         </Route>
-        <Route exact path="/repo-details/:repoId">
+        <Route exact path="/repo-details">
           <RepoDetails repoId="1" />
         </Route>
       </Switch>
     </>
   );
 }
-
 
 export default App;
