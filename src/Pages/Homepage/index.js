@@ -1,11 +1,8 @@
 import React from "react";
 import "./style.css";
-import { useDispatch } from "react-redux";
-
-import { getRepos } from "../../actions";
 
 const Homepage = () => {
-  const dispatch = useDispatch();
+
   const handleClick = (e) => {
     e.preventDefault();
 
@@ -13,12 +10,8 @@ const Homepage = () => {
     console.log(username);
 
     console.log("Clicked");
-
-    dispatch(getRepos(username));
-
-    // TODO add the data to the store.
-
-    // window.location.pathname = "/profile";
+    localStorage.setItem('username', username);
+    window.location.pathname = "/profile";
   };
 
   return (
