@@ -1,4 +1,10 @@
-const initState = { userData: [], error: "" };
+const initState = {
+  userData: {
+    status: ["loading"],
+    data: [{ name: "loading" }],
+  },
+  error: "",
+};
 
 const repoReducer = (state = initState, action) => {
   switch (action.type) {

@@ -32,3 +32,6 @@ section button:hover {
 section {
   margin: 30px;
 }
+.repoContainer {
+  margin: 15px auto;
+}
